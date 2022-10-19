@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config"
