@@ -104,3 +104,7 @@ C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\
 C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Razor\Views\Usuario\ListarUsuarios.cshtml.g.cs
+C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Razor\Views\Usuario\NeedAdmin.cshtml.g.cs
+C:\Users\Alessandra\OneDrive\Área de Trabalho\UC07Atv1eAtv2\Biblioteca\obj\MCD\Debug\netcoreapp3.1\Razor\Views\Usuario\RegistrarUsuarios.cshtml.g.cs

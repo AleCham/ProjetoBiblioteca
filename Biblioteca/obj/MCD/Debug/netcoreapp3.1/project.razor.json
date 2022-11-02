@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Usuario\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuario\\NeedAdmin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -14419,6 +14424,11 @@
     {
       "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Emprestimo\\Cadastro.cshtml",
       "TargetPath": "Views\\Emprestimo\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Usuario\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuario\\EditarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14447,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\RegistrarUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Emprestimo\\Edicao.cshtml",
       "TargetPath": "Views\\Emprestimo\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14464,6 +14479,11 @@
     {
       "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Emprestimo\\Listagem.cshtml",
       "TargetPath": "Views\\Emprestimo\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alessandra\\OneDrive\\Área de Trabalho\\UC07Atv1eAtv2\\Biblioteca\\Views\\Usuario\\ListarUsuarios.cshtml",
+      "TargetPath": "Views\\Usuario\\ListarUsuarios.cshtml",
       "FileKind": "mvc"
     },
     {

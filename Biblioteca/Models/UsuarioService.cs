@@ -37,7 +37,16 @@ namespace Biblioteca.Models
 
                 u.Nome = userEditado.Nome;
                 u.Login = userEditado.Login;
-                u.Senha = userEditado.Senha;
+
+                if(u.Senha != userEditado.Senha)
+                {
+                    u.Senha = Criptografo.TextoCriptografado(userEditado.Senha);
+                }
+                else
+                {
+                    u.Senha = userEditado.Senha;
+                }
+
                 u.Tipo = userEditado.Tipo;
 
                 bc.SaveChanges();
@@ -61,9 +70,6 @@ namespace Biblioteca.Models
             {
                 return bc.Usuarios.Find(id);
             }
-
-
-
         }
     }
 }

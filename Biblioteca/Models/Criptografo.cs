@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Biblioteca.Models
 {
@@ -22,9 +18,7 @@ namespace Biblioteca.Models
             byte[] bytesCriptografado = MD5Hasher.ComputeHash(By);
 
             
-
             StringBuilder SB = new StringBuilder();
-
 
 
             foreach(byte b in bytesCriptografado)
@@ -35,8 +29,6 @@ namespace Biblioteca.Models
                 SB.Append(DebugB);
 
             }
-
-
 
             return SB.ToString();
 
