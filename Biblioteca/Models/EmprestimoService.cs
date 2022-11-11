@@ -51,11 +51,11 @@ namespace Biblioteca.Models
                     switch(filtro.TipoFiltro)
                     {
                         case "Usuario":
-                            query = bc.Emprestimos.Where(e => e.NomeUsuario.Contains(filtro.Filtro.ToLower()));
+                            query = bc.Emprestimos.Where(e => e.NomeUsuario.Contains(filtro.Filtro));
                         break;
 
                         case "Livro":
-                            query = bc.Emprestimos.Where(e => e.Livro.Titulo.Contains(filtro.Filtro.ToLower()));
+                            query = bc.Emprestimos.Where(e => e.Livro.Titulo.Contains(filtro.Filtro));
                         break;
 
                         default:
@@ -74,9 +74,6 @@ namespace Biblioteca.Models
                 return query.Include(e => e.Livro).OrderByDescending(e => e.DataDevolucao).ToList();
             }
         }
-
-
-
 
 
         public Emprestimo ObterPorId(int id)

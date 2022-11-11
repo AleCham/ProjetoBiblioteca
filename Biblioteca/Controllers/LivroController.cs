@@ -63,10 +63,17 @@ namespace Biblioteca.Controllers
 
         public IActionResult Edicao(int id)
         {
+            LivroService livroService = new LivroService();
+            EmprestimoService em = new EmprestimoService();
+            Emprestimo e = em.ObterPorId(id);
+
+            
             Autenticacao.CheckLogin(this);
             LivroService ls = new LivroService();
             Livro l = ls.ObterPorId(id);
-            return View(l);
+
+
+            return View();
         }
 
     }

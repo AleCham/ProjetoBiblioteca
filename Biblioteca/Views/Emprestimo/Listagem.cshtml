@@ -4,8 +4,13 @@
     string Classe = "";
     int FiltroPorPagina = Int32.Parse(ViewData["livrosPorPagina"].ToString());
     int PaginaAtual = Int32.Parse(ViewData["PaginaAtual"].ToString());
-    int NumLivrosPorPag = (Model.Count < FiltroPorPagina ? Model.Count : FiltroPorPagina);
-    int NumTotalDePag = Model.Count / NumLivrosPorPag + (Model.Count % NumLivrosPorPag == 0 ? 0 : 1);
+    int NumLivrosPorPag = (Model.Count<FiltroPorPagina ? Model.Count : FiltroPorPagina);
+    int NumTotalDePag = 0;
+    @if(NumLivrosPorPag > 0)
+    {
+        NumTotalDePag = Model.Count/(NumLivrosPorPag == 0 ? NumLivrosPorPag = 1: NumLivrosPorPag) + (Model.Count % NumLivrosPorPag == 0 ? 0 : 1);
+    }
+
 }
 
 <div class="row">
@@ -35,7 +40,7 @@
 
             <div id="SeletorPaginas">
                 <span>Página:</span>
-                @for (int e = 1; e <= NumTotalDePag; e++)
+                @for (int e = 1; e<= NumTotalDePag;e++)
                 {
                     <span><a href="/Emprestimo/Listagem?PaginaAtual=@e">@e, </a></span>
                 }
@@ -62,8 +67,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @for (int e = (PaginaAtual - 1) * NumLivrosPorPag;
-                   e < (NumLivrosPorPag * PaginaAtual < Model.Count ? NumLivrosPorPag * PaginaAtual : Model.Count); e++)
+                    @for (int e = (PaginaAtual - 1) * NumLivrosPorPag; e < (NumLivrosPorPag * PaginaAtual < Model.Count ? NumLivrosPorPag * PaginaAtual : Model.Count); e++)
                     {
                         @if ((System.DateTime.Compare(System.DateTime.Now, @Model[e].DataDevolucao) > 0))
                         {
@@ -74,6 +78,7 @@
                             Classe = "";
                         }
                         <tr class="@Classe">
+
                             <td>@Model[e].Id</td>
                             <td>@Model[e].NomeUsuario</td>
                             <td>@Model[e].DataEmprestimo.ToString("dd/MM/yyyy")</td>
