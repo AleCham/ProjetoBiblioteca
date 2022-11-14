@@ -29,7 +29,7 @@ namespace Biblioteca.Controllers
             novoUser.Senha = Criptografo.TextoCriptografado(novoUser.Senha);
             new UsuarioService().incluirUsuario(novoUser);
 
-            return View("ListarUsuarios");
+            return RedirectToAction("ListarUsuarios");
         }
 
 
@@ -56,7 +56,7 @@ namespace Biblioteca.Controllers
 
             new UsuarioService().editarUsuario(userEditado);
 
-            return View("ListarUsuarios");
+            return RedirectToAction("ListarUsuarios");
         }
 
         public IActionResult ExcluirUsuario(int id)
@@ -65,7 +65,7 @@ namespace Biblioteca.Controllers
             Autenticacao.verificaSeUsuarioEAdmin(this);
             new UsuarioService().excluirUsuario(id);
 
-            return View("ListarUsuarios");
+            return RedirectToAction("ListarUsuarios");
         }
      
     }

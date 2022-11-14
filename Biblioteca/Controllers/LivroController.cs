@@ -73,8 +73,7 @@ namespace Biblioteca.Controllers
             Livro l = ls.ObterPorId(id);
 
 
-            return View();
+            return View(l);
         }
-
     }
 }
